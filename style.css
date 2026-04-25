@@ -1,0 +1,11 @@
+/*geral*/
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-color: #f9f7f2;
+    color: #333;
+}
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+/*galeria*/
