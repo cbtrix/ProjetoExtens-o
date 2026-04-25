@@ -2,8 +2,8 @@
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
-    background-color: #f9f7f2;
-    color: #333;
+    background-color: #150e06;
+    color: #ffffff;
 }
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
@@ -23,10 +23,10 @@ h1, h2, h3 {
 }
 /*card style*/
 .card {
-    background: #fff;
+    background: #9c5f2d7b;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 20px rgb(35, 20, 20);
     transition: transform 0.3s ease;
 }
 .card:hover {
@@ -41,4 +41,17 @@ h1, h2, h3 {
 .card-info {
     padding: 20px;
     text-align: left;
+}
+.tag {
+    display: inline-block;
+    background: #ffc183;
+    color: rgb(54, 39, 39);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin: 10px 0;
+}
+.card-info h3 {
+    margin: 10px 0 5px 0;
+    font-size: 1.5rem;
 }
